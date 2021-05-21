@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-05-21 16:04:00 by Eclipse SUMO netedit Version 1.9.2
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <output>
+        <output-file value="C:\Users\guosh\Documents\GitHub\SUMO-Tutorial\Drivingincircles\baseDir\circles.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <additional-files value="C:\Users\guosh\Documents\GitHub\SUMO-Tutorial\Drivingincircles\baseDir\circles.add.xml"/>
+        <route-files value="C:\Users\guosh\Documents\GitHub\SUMO-Tutorial\Drivingincircles\baseDir\circles.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <rerouter id="rerouter_0" edges="edge4" pos="34.21,17.76">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="edge8"/>
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_1" edges="edge8" pos="9.07,71.66">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="edge4"/>
+        </interval>
+    </rerouter>
+</additional>
